@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, CanActivate, RouterStateSnapshot, Router, UrlTree } from '@angular/router';
-import { nextTick } from 'process';
 import { Observable } from 'rxjs';
 
 @Injectable({
